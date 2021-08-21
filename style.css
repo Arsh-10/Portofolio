@@ -165,17 +165,17 @@ p{
 
 /* Media querries */
 @media (max-width: 992px) {
-  #head1, h3{
+  #head1, h2, h3{
       font-size: 40px !important;
   }
 }
 
 @media (max-width: 768px) {
-  #head1, h3{
+  #head1,h2, h3{
       font-size: 30px !important;
   }
-  #p1, p{
-      font-size: 17px !important;
+  #p1, p, input{
+      font-size: 20px !important;
   }
   #img1{
       width: 300px;
@@ -185,11 +185,11 @@ p{
 }
 
 @media (max-width: 500px) {
-  #head1, h3{
-      font-size: 20px !important;
+  #head1, h2, h3{
+      font-size: 25px !important;
   }
-  #p1, p{
-      font-size: 17px !important;
+  #p1, p, input{
+      font-size: 20px !important;
   }
   #img1{
       width: 300px;
