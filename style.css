@@ -1,0 +1,165 @@
+body{
+  background-color: whitesmoke !important;
+}
+
+#logo{
+  width: 55px;
+  height: 55px;
+  
+}
+
+nav{
+  border-bottom:2px solid aqua;
+}
+
+
+.linkbar ul li{
+    position: relative;
+}
+
+.linkbar li a{
+    color: lightblue;
+    font-size: 20px;
+    transition: width 3s, heigh 5s, color 3s, transform 3s;
+}
+
+.linkbar li a:hover{
+    font-size: 28px !important;
+    font-weight: bold;
+    color: black;
+    transition-timing-function: ease-out;
+}
+
+.linkbar ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: burlywood;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    transition: 1s;
+}
+
+.linkbar ul li:hover::after{
+    width: 100%;
+    background-color: lightskyblue;
+} 
+
+
+.sec2{
+    background-color: aqua;
+}
+
+.pr{
+    width: 200px;
+    height: 300px;
+}
+
+
+
+/* 
+card flip */
+
+.card-flip > div {
+    backface-visibility: hidden;
+    transition: transform 300ms;
+    transition-timing-function: linear;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+  }
+  
+  .card-front {
+    transform: rotateY(0deg);
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+  }
+  
+  .card-flip:hover .card-front {
+    transform: rotateY(-180deg);
+  }
+    
+  .card-flip:hover .card-back {
+    transform: rotateY(0deg);
+  }
+  
+
+/* h3{
+  font-family: 'Style Script', cursive;
+  font-weight: 600;
+}
+
+p{
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  
+} */
+
+a, h1, h3{
+  font-family: 'Dancing Script', cursive !important;
+  font-weight: bolder;
+}
+
+a, label, input{
+  font-size: 22px !important;
+}
+
+label, input{
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: bolder !important;
+}
+
+p{
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: bolder !important;
+  font-size: 18px !important;
+}
+
+#fir{
+  color: black !important;
+}
+
+
+#toggle {
+  background-color: white !important;
+  width: 35px;
+  height: 12px;
+  border-radius: 20px;
+  border: 2px solid black !important;
+  /* margin: 50px auto; */
+  cursor: pointer;
+  
+}
+
+#circle {
+  width: 8px;
+  height: 9px;
+  background-color: black !important;
+  border-radius: 50%; 
+  margin-left: -1px;
+  margin-top: -1px;
+}
+
+.color-white {
+  color: white !important;
+}
+
+.bck-color-black {
+  background-color: black !important;
+}
+
+.darkMode{
+  float: right;
+  cursor: pointer;
+}
+
+#back1{
+  background-image: linear-gradient(to left ,grey,black,gray);
+}
+
+
