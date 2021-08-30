@@ -173,9 +173,11 @@ p{
 @media (max-width: 768px) {
   #head1,h2, h3{
       font-size: 30px !important;
+      padding: 5px;
   }
   #p1, p, input{
       font-size: 18px !important;
+      padding: 5px;
   }
   #img1{
       width: 300px;
@@ -187,9 +189,11 @@ p{
 @media (max-width: 500px) {
   #head1, h2, h3{
       font-size: 25px !important;
+      padding: 5px;
   }
   #p1, p, input{
       font-size: 18px !important;
+      padding: 5px;
   }
   #img1{
       width: 300px;
