@@ -100,7 +100,7 @@ p{
   
 } */
 
-a, h1, h3{
+a, h1, h2, h3{
   font-family: 'Dancing Script', cursive !important;
   font-weight: bolder;
 }
@@ -171,7 +171,7 @@ p{
 }
 
 @media (max-width: 768px) {
-  #head1,h2, h3{
+  #head1, h1, h2, h3{
       font-size: 30px !important;
       padding: 5px;
   }
@@ -184,10 +184,13 @@ p{
       height: 300px;
       margin-top: 20px;
   }
+  /* .top{
+    padding-top: 5px;
+  } */
 }
 
 @media (max-width: 500px) {
-  #head1, h2, h3{
+  #head1, h1, h2, h3{
       font-size: 25px !important;
       padding: 5px;
   }
@@ -200,4 +203,7 @@ p{
       height: 300px;
       margin-top: 20px;
   }
+  /* .top{
+    padding-top: 5px;
+  } */
 }
